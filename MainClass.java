@@ -2,7 +2,7 @@ import java.io.*;
 public class MainClass{
     public static void main(String args[]){
         try{
-            String arquivo = "input.prog";
+            String arquivo = "./in/input.prog";
             
             if (args.length != 0){
                 arquivo = args[0];
