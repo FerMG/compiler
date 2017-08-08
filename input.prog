@@ -1,0 +1,28 @@
+programa 
+declare a, b, c, d. 
+inicio 
+   leia a. 
+   leia b.
+   leia c.
+   leia d.
+   se (a > b) entao inicio
+       mostre "primeiro if".
+   fim
+   senao inicio
+       se (c < d) entao inicio
+            mostre "segundo if".
+       fim
+       senao inicio
+            mostre "segundo else".
+       fim
+       mostre "primeiro else".
+   fim
+   
+   mostre "agora outra coisa".
+   mostre "vamos comecear um if sem else".
+   
+   se (a < b) entao inicio
+      mostre "if sem else".
+   fim
+fim 
+fimprog
