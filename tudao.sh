@@ -2,6 +2,7 @@
 echo "STARTING..."
 java -cp antlr.jar antlr.Tool gram.g
 echo "PARSER AND LEXER GENERATED"
+mkdir -p ./bin
 if [ $? -eq 0 ]; then
    javac -d ./bin -classpath antlr.jar:. *.java
    echo "ALL CLASSES COMPILED"
